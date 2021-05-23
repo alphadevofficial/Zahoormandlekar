@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+.logo {
+  width: 100%;
+  align-items: center;
+  display: grid;
+  margin-top: 37px;
+  justify-content: center;
+}
+.logo > img {
+  align-items: center;
+  display: grid;
+  height: 40px;
+  margin-left: 69px;
+  justify-content: center;
+}
+.logo > h1 {
+  color: rgb(63, 63, 63);
+}
+
+.nav {
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  margin-top: 28px;
+  padding: 0;
+  text-align: center;
+}
+.nav li {
+  display: inline;
+}
+.nav a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+.nav a:hover {
+  color: purple;
+}
+
+.section > a img {
+  height: 536px;
+  margin-top: 37px;
+  background-color: black;
+  width: 100%;
+}
+.sectionA {
+  margin-top: 80px;
+  display: grid;
+  font-family: "Raleway", sans-serif;
+}
+.images {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.sectionA > p {
+  text-align: center;
+  margin-top: 20px;
+  align-items: center;
+  color: rgb(235, 195, 19);
+  font-size: 16px;
+  font-weight: 700;
+}
+.sectionA > h1 {
+  text-align: center;
+  font-weight: 500;
+}
+.sectionB > img {
+  height: 400px;
+  width: 100%;
+}
+.sectionB {
+  margin-top: 90px;
+}
+.sectionC {
+  margin-top: 80px;
+  display: grid;
+  font-family: "Raleway", sans-serif;
+}
+.sectionC > h1 {
+  text-align: center;
+  color: grey;
+  font-weight: lighter;
+}
+.sectionC > h1 > span {
+  color: rgb(214, 87, 87);
+  font-size: 25px;
+}
+.sectionC > p {
+  text-align: center;
+  margin-top: 4px;
+  font-weight: 700;
+  color: gray;
+}
+.sectionC > .p {
+  margin-top: 20px;
+}
+.sectionC > a {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
+  font-weight: 800;
+  color: rgb(214, 87, 87);
+}
+.sectionC > a:hover {
+  color: purple;
+}
+
+.sectionD {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  margin-top: 147px;
+}
+.button {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 71px;
+}
+.button > button {
+  text-align: center;
+  height: 39px;
+  width: 154px;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(158, 101, 26);
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+.button > button:hover {
+  background-color: rgb(255, 111, 255);
+}
+.hr {
+  margin-top: 87px;
+}
+.sectionE {
+  display: grid;
+  font-family: "Raleway", sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin-top: 41px;
+}
+.sectionE > img {
+  width: 90vmax;
+}
+.hra {
+  margin-top: 41px;
+}
+.sectionF {
+  display: grid;
+  margin-top: 40px;
+  font-family: "Raleway", sans-serif;
+  align-items: center;
+  justify-content: center;
+}

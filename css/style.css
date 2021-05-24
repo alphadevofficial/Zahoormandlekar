@@ -232,3 +232,135 @@ p {
   color: gray;
   margin: 20px;
 }
+.section .v img {
+  visibility: hidden;
+  height: 0;
+}
+
+@media only screen and (max-width: 1025px) {
+  .images {
+    width: 1024px;
+  }
+  .images a img {
+    width: 100%;
+  }
+  .sectionD > img {
+    width: 100%;
+  }
+  .sectionF img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .images {
+    display: grid;
+    grid-gap: 10px;
+  }
+  .sectionB {
+    width: 100%;
+  }
+  .sectionD {
+    display: grid;
+    grid-gap: 5px;
+  }
+  .sectionF img {
+    width: 100%;
+  }
+  .footer {
+    margin: 50px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .images {
+    display: grid;
+    grid-gap: 10px;
+  }
+  .images a > img {
+    width: 100%;
+  }
+  .nav li a {
+    visibility: hidden;
+    height: 0;
+  }
+  .sectionB {
+    width: 100%;
+  }
+  .sectionD {
+    display: grid;
+    grid-gap: 5px;
+  }
+  .sectionF img {
+    width: 100%;
+  }
+  .footer {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer .fa > img {
+    margin-left: 13px;
+  }
+  .footer .fb,
+  .fc,
+  .fd > h3 {
+    margin-top: 10px;
+  }
+  .sectionE > img {
+    width: 100%;
+  }
+  .sectionC {
+    margin: 10px;
+    margin-top: 30px;
+  }
+  .section > a img {
+    margin-top: -15vmax;
+  }
+  .section .v img {
+    visibility: visible;
+    height: 45vmax;
+  }
+  .section .vq img {
+    visibility: hidden;
+    height: 0;
+  }
+  .header .logo > h1 {
+    visibility: hidden;
+  }
+  .header .logo img {
+    margin-left: 0;
+  }
+  .header .h > span {
+    visibility: visible;
+    width: 30px;
+    height: 3px;
+    margin-top: 3px;
+  }
+  .header .h {
+    margin-top: -45px;
+  }
+  .header {
+    display: flex;
+    margin-top: -40px;
+    justify-content: center;
+    align-items: center;
+  }
+  .section .te {
+    visibility: visible;
+    margin-top: -10px;
+    width: 100%;
+  }
+}
+
+.te {
+  visibility: hidden;
+  height: 0;
+}
+.h > span {
+  display: flex;
+  visibility: hidden;
+  background-color: black;
+  width: 0px;
+  height: 0px;
+  margin-top: 0px;
+}

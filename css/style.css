@@ -228,7 +228,7 @@ p {
   justify-content: center;
   margin-bottom: 48px;
 }
-.icons i {
+.icons > i {
   color: gray;
   margin: 20px;
 }

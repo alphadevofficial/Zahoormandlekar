@@ -237,7 +237,7 @@ p {
   height: 0;
 }
 
-@media only screen and (max-width: 1025px) {
+/* @media only screen and (max-width: 1025px) {
   .images {
     width: 1024px;
   }
@@ -250,7 +250,7 @@ p {
   .sectionF img {
     width: 100%;
   }
-}
+} */
 @media only screen and (max-width: 768px) {
   .images {
     display: grid;

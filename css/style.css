@@ -64,10 +64,15 @@ body {
 .images {
   margin-top: 32px;
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: center;
   gap: 2px;
 }
+.images img {
+  width: 100%;
+}
+
 .sectionA > p {
   text-align: center;
   margin-top: 20px;
@@ -124,9 +129,14 @@ body {
 .sectionD {
   display: flex;
   align-items: center;
+  width: 100%;
   justify-content: center;
   font-family: "Raleway", sans-serif;
   margin-top: 147px;
+}
+
+.sectionF img {
+  width: 100%;
 }
 .button {
   display: grid;
@@ -251,7 +261,7 @@ p {
     width: 100%;
   }
 } */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
   .images {
     display: grid;
     grid-gap: 10px;
@@ -263,11 +273,22 @@ p {
     display: grid;
     grid-gap: 5px;
   }
+  .sectionD img {
+    width: 40vmax;
+  }
   .sectionF img {
     width: 100%;
   }
   .footer {
     margin: 50px;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .sectionD img {
+    width: 30vmax;
+  }
+  .footer {
+    margin: 10vmax;
   }
 }
 @media only screen and (max-width: 426px) {
@@ -330,24 +351,116 @@ p {
   .header .logo img {
     margin-left: 0;
   }
-  .header .h > span {
+  .h {
+    margin-top: -50px;
+  }
+  .h > span {
     visibility: visible;
     width: 30px;
     height: 3px;
     margin-top: 3px;
+    display: flex;
+    background-color: black;
   }
-  .header .h {
-    margin-top: -45px;
-  }
+
   .header {
     display: flex;
-    margin-top: -40px;
+    /* margin-top: -40px; */
     justify-content: center;
     align-items: center;
   }
   .section .te {
     visibility: visible;
     margin-top: -10px;
+    height: 80px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .images {
+    display: grid;
+    grid-gap: 10px;
+  }
+  .images a > img {
+    width: 100%;
+  }
+  .nav li a {
+    visibility: hidden;
+    height: 0;
+  }
+  .sectionB {
+    width: 100%;
+  }
+  .sectionD {
+    display: grid;
+    grid-gap: 5px;
+  }
+  .sectionD > img {
+    width: 100%;
+  }
+  .sectionF img {
+    width: 100%;
+  }
+  .footer {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer .fa > img {
+    margin-left: 13px;
+  }
+  .footer .fb,
+  .fc,
+  .fd > h3 {
+    margin-top: 10px;
+  }
+  .sectionE > img {
+    width: 100%;
+  }
+  .sectionC {
+    margin: 10px;
+    margin-top: 30px;
+  }
+  .section > a img {
+    margin-top: -15vmax;
+  }
+  .section .v img {
+    visibility: visible;
+    height: 45vmax;
+  }
+  .section .vq img {
+    visibility: hidden;
+    height: 0;
+  }
+  .header .logo > h1 {
+    visibility: hidden;
+  }
+  .header .logo img {
+    margin-left: 0;
+  }
+  .h {
+    margin-top: -50px;
+  }
+  .h > span {
+    visibility: visible;
+    width: 30px;
+    height: 3px;
+    margin-top: 3px;
+    display: flex;
+    background-color: black;
+  }
+
+  .header {
+    display: flex;
+    /* margin-top: -40px; */
+    justify-content: center;
+    align-items: center;
+  }
+  .section .te {
+    visibility: visible;
+    margin-top: -10px;
+    height: 80px;
     width: 100%;
   }
 }
@@ -357,10 +470,9 @@ p {
   height: 0;
 }
 .h > span {
-  display: flex;
-  visibility: hidden;
+  visibility: visible;
   background-color: black;
-  width: 0px;
-  height: 0px;
-  margin-top: 0px;
+  width: 30px;
+  height: 3px;
+  margin-top: 3px;
 }

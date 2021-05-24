@@ -169,7 +169,7 @@ body {
   margin-top: 41px;
 }
 .sectionE > img {
-  width: 90vmax;
+  width: 100%;
 }
 .hra {
   margin-top: 41px;
@@ -284,11 +284,34 @@ p {
   }
 }
 @media only screen and (max-width: 1025px) {
+  .images {
+    display: grid;
+    grid-gap: 10px;
+  }
+  .sectionB {
+    width: 100%;
+  }
+  .sectionD {
+    display: grid;
+    grid-gap: 5px;
+  }
+  .sectionD img {
+    width: 40vmax;
+  }
+  .sectionF img {
+    width: 100%;
+  }
+  .footer {
+    margin: 50px;
+  }
   .sectionD > img {
     width: 30vmax;
   }
   .footer {
     margin: 10vmax;
+  }
+  .sectionE img {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 426px) {
